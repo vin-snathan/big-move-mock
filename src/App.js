@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import truck from './truck.png';
 import './App.css';
 
 class App extends Component {
@@ -34,7 +35,7 @@ class NavBar extends Component {
               <span className="icon-bar"></span>
               <span className="icon-bar"></span> 
             </button>
-            <a className="navbar-brand" href="#"><img id='nav-truck' className='img-responsive' src='https://www.iconsdb.com/icons/preview/navy-blue/truck-2-xxl.png' /><span id='wordBig'>BIG</span><span id='wordMove'>MOVE</span></a>
+            <a className="navbar-brand" href="#"><img id='nav-truck' className='img-responsive' src={truck} /><span id='wordBig'>BIG</span><span id='wordMove'>MOVE</span></a>
           </div>
           <div className="collapse navbar-collapse" id="myNavbar">
             <ul className="nav navbar-nav navbar-right">
